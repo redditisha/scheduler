@@ -17,6 +17,10 @@ jobs:
         with:
           python-version: 3.x # Specify your desired Python version
 
+      - name: Install Dependencies
+        run: |
+          pip install selenium
+
       - name: Download Python Script
         run: |
           curl -o my_script.py https://raw.githubusercontent.com/redditisha/scheduler/main/test_math.py
