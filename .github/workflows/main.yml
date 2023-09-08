@@ -21,6 +21,11 @@ jobs:
         run: |
           pip install selenium
 
+      - name: Install Google Chrome
+        run: |
+          wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+          sudo dpkg -i google-chrome-stable_current_amd64.deb   
+
       - name: Download Python Script
         run: |
           curl -o my_script.py https://raw.githubusercontent.com/redditisha/scheduler/main/test_math.py
