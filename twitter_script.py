@@ -13,7 +13,6 @@ from selenium.common.exceptions import NoSuchElementException
 import os
 import datetime
 import re
-from ordered_set import OrderedSet
 import pandas as pd
 # Wait for a fixed amount of time (in seconds)
 import time
