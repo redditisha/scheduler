@@ -32,5 +32,6 @@ jobs:
         run: |
           curl -o my_script.py https://raw.githubusercontent.com/redditisha/scheduler/main/twitter_script.py
           curl -o my_selenium_data1 https://raw.githubusercontent.com/redditisha/scheduler/master/my_selenium_data1
+          pkill -f "chrome --user-data-dir"
       - name: Run Your Python Script
         run: python my_script.py
