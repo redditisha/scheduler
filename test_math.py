@@ -1,7 +1,7 @@
 # Import math Library
 import math
 from selenium import webdriver
-from selenium.webdriver.chrome.options import ChromeOptions
+from selenium.webdriver.chrome.options import Options
 
 # Return the base-10 logarithm of different numbers
 print(math.log10(2.7183))
