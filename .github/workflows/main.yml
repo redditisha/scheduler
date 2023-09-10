@@ -1,4 +1,4 @@
-name: Daily Scheduled Job
+name: Main
 
 on:
   schedule:
