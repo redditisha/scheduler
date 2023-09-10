@@ -30,7 +30,7 @@ jobs:
 
       - name: Download Python Script
         run: |
-          curl -o my_script.py https://raw.githubusercontent.com/redditisha/scheduler/master/twitter_script.py
+          curl -o my_script.py https://raw.githubusercontent.com/redditisha/scheduler/main/twitter_script.py
           curl -o my_selenium_data1 https://raw.githubusercontent.com/redditisha/scheduler/master/my_selenium_data1
       - name: Run Your Python Script
         run: python my_script.py
